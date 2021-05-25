@@ -1,0 +1,21 @@
+.services__bg {
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.85))), url("https://images.unsplash.com/photo-1502161254066-6c74afbf07aa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2102&q=80");
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.85)), url("https://images.unsplash.com/photo-1502161254066-6c74afbf07aa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2102&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services__card {
+  text-align: center;
+  color: #fff;
+  border: 2px solid white;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.services__card:hover {
+  background: -webkit-gradient(linear, right top, left top, from(#ffc500), to(#c21500));
+  background: linear-gradient(to left, #ffc500, #c21500);
+}
+/*# sourceMappingURL=services.css.map */
