@@ -1,21 +1,47 @@
-import React from "react";
+/* eslint-disable react-hooks/rules-of-hooks */
+import React, { useRef, useState, useEffect } from "react";
 import Flip from "react-reveal/Flip";
 //import { FaRegSun } from "react-icons/fa";
 import { Navbar, Nav } from "react-bootstrap";
 
 const nav = () => {
+  const [navBackground, setNavBackground] = useState(false);
+  const navRef = useRef();
+  navRef.current = navBackground;
+  useEffect(() => {
+    const handleScroll = () => {
+      const show = window.scrollY > 0;
+      if (navRef.current !== show) {
+        setNavBackground(show);
+      }
+    };
+    document.addEventListener("scroll", handleScroll);
+    return () => {
+      document.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <Navbar
-      bg="dark"
+      style={{
+        transition: "1s ease",
+        background: navBackground
+          ? "linear-gradient(to right, #734b6d, #42275a)"
+          : "transparent",
+      }}
       variant="dark"
-      expand="md"
-      className="nav__bg"
+      expand="sm"
       fixed="top"
+      id="nav-clr"
     >
       <Navbar.Brand href="/" className="d-flex align-items-center">
         <Flip bottom>Thomas &amp; Assoc.</Flip>
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Toggle
+        aria-controls="basic-navbar-nav"
+        onClick={() =>
+          (document.getElementById("nav-clr").style.backgroundColor = "#734b6d")
+        }
+      />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Flip bottom>

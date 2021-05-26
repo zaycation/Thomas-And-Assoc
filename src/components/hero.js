@@ -52,9 +52,9 @@ const hero = () => {
           <br />
           <br />
           <Flip bottom>
-            <h4 className="pretrans">
+            <h6 className="pretrans">
               Your one stop shop for all things insurance
-            </h4>
+            </h6>
           </Flip>
         </div>
       </Col>

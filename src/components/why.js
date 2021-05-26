@@ -48,6 +48,8 @@ const why = () => {
           </Slide>
         </Col>
       </Row>
+      <br />
+      <br />
     </>
   );
 };
