@@ -31,7 +31,7 @@ const location = () => {
       <Col xs={12} sm={12} md={6} lg={6}>
         <Slide left>
           <div className="text-center">
-            <h4 clasName="my-3">Location & Hours</h4>
+            <h4 className="my-4">Location & Hours</h4>
             <br />
             <Table striped bordered hover size="sm">
               <thead>
@@ -76,7 +76,7 @@ const location = () => {
       </Col>
       <Col xs={12} sm={12} md={6} lg={6}>
         <Slide right>
-          <h4 className="my-3 text-center">Updated Amenities</h4>
+          <h4 className="my-5 text-center">Updated Amenities</h4>
 
           <p className="d-flex align-items-center justify-content-center">
             <RiWifiFill className="mr-2" color="#734b6d" />

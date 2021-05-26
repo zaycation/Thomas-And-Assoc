@@ -14,6 +14,7 @@ const hero = () => {
         <div className="my-5 text-white text-center">
           <br />
           <br />
+          <br />
           <Flip bottom>
             <h2 className="pretrans">Thomas & Associates Insurance Agency</h2>
           </Flip>
@@ -25,6 +26,8 @@ const hero = () => {
                 <h4 className="type__text pretrans mx-1">Auto Insurance</h4>
                 <h4 className="type__text pretrans mx-1">Home Insurance</h4>
                 <h4 className="type__text pretrans mx-1">Life Insurance</h4>
+                <h4 className="type__text pretrans mx-1">Renters Insurance</h4>
+                <h4 className="type__text pretrans mx-1">Pet Insurance</h4>
               </TextLoop>
             </h4>
           </Flip>
