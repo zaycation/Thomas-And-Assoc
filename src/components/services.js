@@ -71,24 +71,16 @@ const services = () => {
                 <Button
                   variant="light"
                   className="hero__btn"
-                  onClick={() => window.open("tel:661-679-8468")}
+                  onClick={() => window.open("tel:773-268-4888")}
                 >
-                  Get Instant Quote
+                  Get An Instant Quote
                 </Button>
               </Slide>
             </div>{" "}
             <div>
               <Slide right>
-                <Button
-                  variant="light"
-                  className="hero__btn"
-                  onClick={() =>
-                    window.open(
-                      "https://www.yelp.com/biz/al-s-window-tinting-lancaster?hrid=7p4iu_2_W_VvwVSrGujISg&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)"
-                    )
-                  }
-                >
-                  View Yelp Reviews
+                <Button variant="light" className="hero__btn">
+                  Schedule Consultation
                 </Button>
               </Slide>
             </div>
@@ -106,9 +98,3 @@ const services = () => {
 };
 
 export default services;
-
-/*
-
-window tinting auto, comercial, resizable
-paint protection
-*/
