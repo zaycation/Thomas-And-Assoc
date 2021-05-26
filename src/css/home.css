@@ -4,6 +4,16 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 60vh;
+}
+
+.right__img {
+  background: url("https://i.ibb.co/XXykRTB/Black-Man-Working-on-Analytics.png");
+  min-height: 25vh;
+}
+
+.left__img {
+  background: url("https://i.ibb.co/LYSS2fQ/Black-Women-Using-a-White-Board-B.png");
   min-height: 35vh;
 }
 
@@ -36,12 +46,17 @@
 }
 
 .type__text {
-  background: #734b6d;
+  background: -webkit-linear-gradient(45deg, #734b6d, #42275a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .pretrans {
   font-weight: 800;
+}
+
+.text-trans {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.685)), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(rgba(255, 255, 255, 0.685), rgba(255, 255, 255, 0));
 }
 /*# sourceMappingURL=home.css.map */

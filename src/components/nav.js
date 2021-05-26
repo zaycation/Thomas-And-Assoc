@@ -1,7 +1,7 @@
 import React from "react";
 import Flip from "react-reveal/Flip";
-import { FaRegSun } from "react-icons/fa";
-import { Navbar, NavDropdown, Nav } from "react-bootstrap";
+//import { FaRegSun } from "react-icons/fa";
+import { Navbar, Nav } from "react-bootstrap";
 
 const nav = () => {
   return (
@@ -13,7 +13,7 @@ const nav = () => {
       fixed="top"
     >
       <Navbar.Brand href="/" className="d-flex align-items-center">
-        <Flip bottom>Thomas &amp; Assoc</Flip>
+        <Flip bottom>Thomas &amp; Assoc.</Flip>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

@@ -2,9 +2,9 @@ import React from "react";
 import Flip from "react-reveal/Flip";
 import Slide from "react-reveal/Slide";
 import TextLoop from "react-text-loop";
-import { FaSortDown } from "react-icons/fa";
 import { Row, Col, Button } from "react-bootstrap";
-import { HashLink } from "react-router-hash-link";
+//import { FaSortDown } from "react-icons/fa";
+//import { HashLink } from "react-router-hash-link";
 
 const hero = () => {
   return (
@@ -14,8 +14,6 @@ const hero = () => {
         <div className="my-5 text-white text-center">
           <br />
           <br />
-          <br />
-          <br />
           <Flip bottom>
             <h2 className="pretrans">Thomas & Associates Insurance Agency</h2>
           </Flip>
@@ -23,10 +21,10 @@ const hero = () => {
           <Flip bottom>
             <h4 className="pretrans">
               Providing, but not limited to:{" "}
-              <TextLoop>
-                <h4 className="type__text pretrans">Auto Insurance</h4>
-                <h4 className="type__text pretrans">Home Insurance</h4>
-                <h4 className="type__text pretrans">Life Insurance</h4>
+              <TextLoop className="text-trans">
+                <h4 className="type__text pretrans mx-1">Auto Insurance</h4>
+                <h4 className="type__text pretrans mx-1">Home Insurance</h4>
+                <h4 className="type__text pretrans mx-1">Life Insurance</h4>
               </TextLoop>
             </h4>
           </Flip>
@@ -37,30 +35,20 @@ const hero = () => {
                 <Button
                   variant="light"
                   className="hero__btn"
-                  onClick={() => window.open("tel:661-679-8468")}
+                  onClick={() => window.open("tel:773-268-4888")}
                 >
-                  Get Instant Quote
+                  Get An Instant Quote
                 </Button>
               </Slide>
             </div>{" "}
             <div>
               <Slide right>
-                <Button
-                  variant="light"
-                  className="hero__btn"
-                  onClick={() =>
-                    window.open(
-                      "https://www.yelp.com/biz/al-s-window-tinting-lancaster?hrid=7p4iu_2_W_VvwVSrGujISg&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)"
-                    )
-                  }
-                >
-                  View Yelp Reviews
+                <Button variant="light" className="hero__btn">
+                  Schedule Consultation
                 </Button>
               </Slide>
             </div>
           </div>
-          <br />
-
           <br />
           <br />
           <Flip bottom>
@@ -68,15 +56,6 @@ const hero = () => {
               Your one stop shop for all things insurance
             </h4>
           </Flip>
-          <br />
-          <br />
-          <br />
-          <br />
-          <Slide bottom>
-            <HashLink to="#reviews" smooth>
-              <FaSortDown size={46} color="#734b6d" />
-            </HashLink>
-          </Slide>
         </div>
       </Col>
     </Row>
