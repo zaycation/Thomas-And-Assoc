@@ -32,7 +32,7 @@ const HomePage = () => {
                   </Card.Body>
                 </Card>
                 <Card className="my-5">
-                  <Card.Header>
+                  <Card.Header> 
                     <strong>
                       We Only Offer the Best Companies to Our Clients
                     </strong>
@@ -59,6 +59,7 @@ const HomePage = () => {
               src="https://i.ibb.co/XXykRTB/Black-Man-Working-on-Analytics.png"
               rounded
               fluid
+              alt="man working on analytics"
             />
           </Col>
         </Row>
@@ -68,6 +69,7 @@ const HomePage = () => {
               src="https://i.ibb.co/LYSS2fQ/Black-Women-Using-a-White-Board-B.png"
               rounded
               fluid
+              alt="women using white board"
             />
           </Col>
           <Col>

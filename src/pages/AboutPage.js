@@ -9,14 +9,14 @@ const AboutPage = () => {
   return (
     <Container fluid={true} className="container-fluid about__bg">
       <Row>
-        <Col className="my-5 mx-5 text-center">
+        <Col className="my-5 text-center">
           <Slide left>
             <div className="text-white">
-              <h4 className="my-5">
+              <h4 className="my-5 mx-4">
                 All About Thomas & Associates Insurance Agency!
               </h4>
               <h6 className="my-4">Established in 1992</h6>
-              <p>
+              <p className="mx-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
                 mollitia, molestiae quas vel sint commodi repudiandae
                 consequuntur voluptatum laborum numquam blanditiis harum
