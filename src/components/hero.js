@@ -46,7 +46,13 @@ const hero = () => {
             </div>{" "}
             <div>
               <Slide right>
-                <Button variant="light" className="hero__btn">
+                <Button
+                  variant="light"
+                  className="hero__btn ml-1"
+                  onClick={() =>
+                    window.open("https://calendly.com/thomasandassociates")
+                  }
+                >
                   Schedule Consultation
                 </Button>
               </Slide>

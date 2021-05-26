@@ -7,21 +7,41 @@ import "../css/about.css";
 
 const AboutPage = () => {
   return (
-    <Container fluid={true} className="container-fluid">
+    <Container fluid={true} className="container-fluid about__bg">
       <Row>
-        <Col xs={12} sm={12} md={6} lg={6} className="my-5">
+        <Col className="my-5 mx-5 text-center">
           <Slide left>
-            <div>
-              <h4 className="my-5">All About Al!</h4>
+            <div className="text-white">
+              <h4 className="my-5">
+                All About Thomas & Associates Insurance Agency!
+              </h4>
               <h6 className="my-4">Established in 1992</h6>
               <p>
-                Al has been skilled in his craft for well over a few decades.
-                Over the years, he has built a rapport from his clientele that
-                continue to invest with him because of his great prices and
-                exceptionally fast work. Al has never been shy of hard work.
-                What he can do with his own two hands, most businesses couldn't
-                even dream of doing! Get your work done with Al's Window Tinting
-                and we'll promise you won't regret it!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                mollitia, molestiae quas vel sint commodi repudiandae
+                consequuntur voluptatum laborum numquam blanditiis harum
+                quisquam eius sed odit fugiat iusto fuga praesentium optio,
+                eaque rerum! Provident similique accusantium nemo autem.
+                Veritatis obcaecati tenetur iure eius earum ut molestias
+                architecto voluptate aliquam nihil, eveniet aliquid culpa
+                officia aut! Impedit sit sunt quaerat, odit, tenetur error,
+                harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia.
+                Quo neque error repudiandae fuga? Ipsa laudantium molestias eos
+                sapiente officiis modi at sunt excepturi expedita sint? Sed
+                quibusdam recusandae alias error harum maxime adipisci amet
+                laborum. Perspiciatis minima nesciunt dolorem! Officiis iure
+                rerum voluptates a cumque velit quibusdam sed amet tempora. Sit
+                laborum ab, eius fugit doloribus tenetur fugiat, temporibus enim
+                commodi iusto libero magni deleniti quod quam consequuntur!
+                Commodi minima excepturi repudiandae velit hic maxime
+                doloremque. Quaerat provident commodi consectetur veniam
+                similique ad earum omnis ipsum saepe, voluptas, hic voluptates
+                pariatur est explicabo fugiat, dolorum eligendi quam cupiditate
+                excepturi mollitia maiores labore suscipit quas? Nulla, placeat.
+                Voluptatem quaerat non architecto ab laudantium modi minima sunt
+                esse temporibus sint culpa, recusandae aliquam numquam totam
+                ratione voluptas quod exercitationem fuga. Possimus quis earum
+                veniam quasi aliquam eligendi, placeat qui corporis!
               </p>
             </div>
 
@@ -29,28 +49,27 @@ const AboutPage = () => {
               <div>
                 <Slide left>
                   <Button
-                    variant="dark"
-                    onClick={() => window.open("tel:661-679-8468")}
+                    variant="light"
+                    onClick={() => window.open("tel:773-268-4888")}
                   >
-                    Get Instant Quote
+                    Get An Instant Quote
                   </Button>
                 </Slide>
-              </div>{" "}
-              <div>
+              </div>
+              <div className="ml-1">
                 <Slide right>
                   <Button
-                    variant="dark"
+                    variant="light"
                     onClick={() =>
-                      window.open(
-                        "https://www.yelp.com/biz/al-s-window-tinting-lancaster?hrid=7p4iu_2_W_VvwVSrGujISg&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)"
-                      )
+                      window.open("https://calendly.com/thomasandassociates")
                     }
                   >
-                    View Yelp Reviews
+                    Schedule Consultation
                   </Button>
                 </Slide>
               </div>
             </div>
+
             <Flip bottom>
               <h6 className="my-5 text-center text-white">
                 *All services can be requested for auto, commercial or
@@ -59,7 +78,6 @@ const AboutPage = () => {
             </Flip>
           </Slide>
         </Col>
-        <Col xs={12} sm={12} md={6} lg={6} className="about__bg" />
       </Row>
     </Container>
   );
